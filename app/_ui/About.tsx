@@ -5,10 +5,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section
-      className="relative flex min-h-screen w-full items-center justify-center px-[12%] py-32"
-      id="about"
-    >
+    <section className="flex items-center justify-center" id="hainguyen">
       <div className="flex items-center justify-center gap-40">
         <Image
           src="/avatar.jpeg"
@@ -36,8 +33,14 @@ export default function About() {
             </div>
           </div>
           <div className="flex gap-8">
-            <FontAwesomeIcon icon={faGithub} className="w-8 h-8 cursor-pointer duration-200 ease-in-out hover:scale-110" />
-            <FontAwesomeIcon icon={faLinkedin} className="w-8 h-8 cursor-pointer duration-200 ease-in-out hover:scale-110" />
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="h-8 w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
+            />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="h-8 w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
+            />
           </div>
         </div>
       </div>
