@@ -5,21 +5,21 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="flex items-center justify-center" id="hainguyen">
-      <div className="flex items-center justify-center gap-40">
+    <section className="flex items-center justify-center container mx-auto px-4" id="hainguyen">
+      <div className="flex items-center justify-center gap-40 max-xl:gap-20 max-md:flex-col max-md:gap-6">
         <Image
           src="/avatar.jpeg"
           alt="Nguyen Hai Nguyen"
           width={400}
           height={400}
           quality={100}
-          className="w-[30vw] rounded-full"
+          className="w-[30vw] rounded-full max-sm:w-52"
         />
         <div className="flex flex-col items-center justify-between gap-6 text-center">
           <div>
-            <h3 className="text-3xl font-medium opacity-80">Hi, I&apos;m</h3>
-            <h1 className="my-6 text-6xl font-semibold">Hai Nguyen</h1>
-            <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-3xl text-transparent">
+            <h3 className="text-3xl font-medium opacity-80 max-sm:text-xl">Hi, I&apos;m</h3>
+            <h1 className="my-6 text-6xl font-semibold text-nowrap max-sm:text-3xl max-sm:my-3">Hai Nguyen</h1>
+            <span className="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-3xl text-transparent max-sm:text-xl">
               Frontend Developer
             </span>
           </div>
