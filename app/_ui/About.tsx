@@ -44,7 +44,7 @@ export default function About() {
               target="_blank"
               className="cursor-pointer text-nowrap rounded-[3rem] border-2 border-solid border-black px-6 py-2 font-medium duration-200 ease-in-out hover:bg-black hover:text-white"
             >
-              Dowload CV
+              Download CV
             </Link>
             <Link
               href="#contact"
