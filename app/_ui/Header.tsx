@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="fixed left-1/2 top-4 z-50 flex -translate-x-1/2 items-center justify-center gap-20 rounded-[3rem] bg-black px-6 py-2 text-white opacity-80 backdrop-blur">
       <Link
-        href="#hainguyen"
+        href="/"
         className="text-nowrap text-xl font-semibold text-white transition-transform hover:scale-110 max-xl:text-lg"
       >
         <span>Hai Nguyen</span>

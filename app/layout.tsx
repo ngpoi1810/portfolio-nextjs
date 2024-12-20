@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "@/app/_ui/globals.css";
 import Header from "./_ui/Header";
+import Footer from "./_ui/Footer";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -7,7 +7,7 @@ export default function Footer() {
     <footer id="contact" className="container mx-auto w-full px-4">
       <div className="flex items-center justify-between border-b border-solid border-black pb-14 max-md:pb-7 max-sm:flex-col max-sm:gap-3">
         <Link
-          href=""
+          href="#about"
           className="text-nowrap text-xl font-semibold transition-transform hover:scale-110"
           title="Nguyen Hai Nguyen"
         >

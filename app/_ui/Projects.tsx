@@ -8,10 +8,10 @@ export default function Projects() {
         Recent Projects
       </h2>
       <p className="mx-auto max-w-[700px] text-center opacity-80 max-sm:text-xs">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem{" "}
+        Some personal projects
       </p>
       <div className="mt-7 flex items-center justify-center gap-8 max-lg:flex-col">
-        <div className="max-xl:w-full group flex max-w-[375px] cursor-pointer flex-col items-center justify-center gap-6 overflow-hidden rounded-2xl text-center shadow-xl duration-300 ease-in-out hover:scale-105 hover:bg-black hover:text-white max-xl:gap-2 max-lg:gap-0">
+        <div className="group flex max-w-[375px] cursor-pointer flex-col items-center justify-center gap-6 overflow-hidden rounded-2xl text-center shadow-xl duration-300 ease-in-out hover:scale-105 hover:bg-black hover:text-white max-xl:w-full max-xl:gap-2 max-lg:gap-0">
           <div className="relative h-60 w-full max-xl:h-52 max-lg:h-60">
             <Image
               src="/project1.png"
@@ -48,7 +48,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="max-xl:w-full group flex max-w-[375px] cursor-pointer flex-col items-center justify-center gap-6 overflow-hidden rounded-2xl text-center shadow-xl duration-300 ease-in-out hover:scale-105 hover:bg-black hover:text-white max-xl:gap-2 max-lg:gap-0">
+        <div className="group flex max-w-[375px] cursor-pointer flex-col items-center justify-center gap-6 overflow-hidden rounded-2xl text-center shadow-xl duration-300 ease-in-out hover:scale-105 hover:bg-black hover:text-white max-xl:w-full max-xl:gap-2 max-lg:gap-0">
           <div className="relative h-60 w-full max-xl:h-52 max-lg:h-60">
             <Image
               src="/project2.png"
@@ -85,7 +85,7 @@ export default function Projects() {
             </div>
           </div>
         </div>{" "}
-        <div className="max-xl:w-full group flex max-w-[375px] cursor-pointer flex-col items-center justify-center gap-6 overflow-hidden rounded-2xl text-center shadow-xl duration-300 ease-in-out hover:scale-105 hover:bg-black hover:text-white max-xl:gap-2 max-lg:gap-0">
+        <div className="group flex max-w-[375px] cursor-pointer flex-col items-center justify-center gap-6 overflow-hidden rounded-2xl text-center shadow-xl duration-300 ease-in-out hover:scale-105 hover:bg-black hover:text-white max-xl:w-full max-xl:gap-2 max-lg:gap-0">
           <div className="relative h-60 w-full max-xl:h-52 max-lg:h-60">
             <Image
               src="/project3.png"
@@ -120,6 +120,14 @@ export default function Projects() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-10 flex justify-center">
+        <Link
+          href="/projects"
+          className="cursor-pointer text-nowrap rounded-[3rem] border-2 border-solid border-black px-6 py-2 font-medium duration-200 ease-in-out hover:bg-black hover:text-white"
+        >
+          See All
+        </Link>
       </div>
     </section>
   );
