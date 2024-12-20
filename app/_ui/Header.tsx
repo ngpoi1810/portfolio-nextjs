@@ -63,9 +63,14 @@ export default function Header() {
           onClick={() => setIsOpen(!isOpen)}
         />
       )}
-      <button className="cursor-pointer text-nowrap rounded-[3rem] border-none bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 text-base font-medium text-white transition-all hover:scale-105 hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 max-xl:px-4 max-xl:py-2 max-xl:text-sm max-md:hidden">
+      <Link
+        href="https://github.com/ngpoi1810"
+        target="_blank"
+        title="Github"
+        className="cursor-pointer text-nowrap rounded-[3rem] border-none bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 text-base font-medium text-white transition-all hover:scale-105 hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-500 max-xl:px-4 max-xl:py-2 max-xl:text-sm max-md:hidden"
+      >
         Visit Github
-      </button>
+      </Link>
     </header>
   );
 }
