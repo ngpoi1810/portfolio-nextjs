@@ -40,7 +40,7 @@ export default function About() {
           <div className="flex gap-4">
             <Link
               download="HaiNguyen_Resume"
-              href="/hainguyen.pdf"
+              href="/cv_hainguyen.pdf"
               target="_blank"
               className="cursor-pointer text-nowrap rounded-[3rem] border-2 border-solid border-black px-6 py-2 font-medium duration-200 ease-in-out hover:bg-black hover:text-white"
             >
